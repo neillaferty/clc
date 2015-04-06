@@ -1,0 +1,183 @@
+html {overflow-y: scroll;}
+
+body {
+	background: #fff;
+	text-align: center;
+	color: #000;
+	font-family: "FrutigerLTW01-55Roman", "Arial";
+	font-weight: 200;
+	font-size: 13px;
+	letter-spacing: 1px;
+	min-width: 1008px;
+}
+
+/* Desktop site */
+@media only screen and (min-width : 800px) {
+	/* Styles */
+
+	header {
+		width: 100%;
+		height: 173px;
+		position: relative;
+	}
+
+	header nav {
+		width: 100%;
+		height: 42px;
+		position: absolute;
+		bottom: 0px;
+		background: #706E6F;
+		color: #FFFFFF;
+	}
+
+	header nav li {
+		float: left;
+		text-align: center;
+		padding: 14px 14px;
+		display: inline;
+	}
+
+	header nav li a {
+		color: #FFFFFF;
+		text-decoration: none; 
+		-webkit-transition: color .25s;
+		transition: color .25s;
+	}
+
+	header nav li a:visited {
+		color: #FFFFFF;
+		-webkit-transition: color .25s;
+		transition: color .25s;
+	}
+
+	header nav li a:hover {
+		color: #CCCCCC;
+		-webkit-transition: color .25s;
+		transition: color .25s;
+	}
+
+	header nav.main li:first-of-type {
+		background: #DB4046;
+	}
+
+	header nav.main li:first-of-type:hover {
+		background: #56A1D5;
+	}
+
+	header nav.supernav {
+		width: 100%;
+		height: 131px;
+		top: 0;
+		background: #FFFFFF;
+		color: #000000;
+		text-align: center;
+		position: absolute;
+	}
+
+	header nav.supernav ul {
+		width: 100%;
+		bottom: 32px;
+		position: absolute;
+	}
+
+	header nav.supernav li {
+		float: none;
+		padding: 0 32px;
+		cursor: pointer;
+	}
+
+	header nav.supernav li span {
+		width: 64px;
+	}
+
+
+	footer {
+		width: 100%;
+		height: 132px;
+	}
+
+	footer nav {
+		width: 1008px;
+		margin: 18px 0 0 43px;
+	}
+
+	footer nav ul.social li {
+		float: left;
+		margin-right: 38px;
+	}
+
+	footer figcaption {
+		font-style: italic;
+		position: absolute;
+		right: 5%;
+	}
+
+	footer aside {
+		margin-top: 24px;
+		font-size: 13px;
+	}
+
+	footer aside p {
+		margin-bottom: 14px;
+	}
+
+	footer aside span.copyright {
+		margin-right: 28px;
+	}
+
+	div#container {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+		position: relative;
+	}
+
+	div#logo {
+		position: absolute;
+		z-index: 100;
+	}
+
+	body.index2 div#logo {
+		right: 94px;
+		top: 64px;
+	}
+
+	div#cnn-video {
+		position: absolute;
+		left: 124px;
+		top: 17px;
+		z-index: 100;
+	}
+
+	section.content {
+		width: 100%;
+		min-height: 646px;
+		position: relative;
+	}
+
+	body.index2 section.content {
+		/*background: url(/assets/images/background-home.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;*/
+	}
+
+	section.content	img.background {
+		width: 100%;
+		z-index: 1;
+	}
+
+	aside.endorsement {
+		position: absolute;
+		left: 222px;
+		top: 33px;
+		font-size: 15px;
+		z-index: 100;
+	}
+
+}
+
+
+/*Everything else*/
+@media only screen and (max-device-width : 1007px) {
+	/* Styles */
+}

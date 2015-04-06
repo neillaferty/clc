@@ -1,0 +1,871 @@
+html {overflow-y: scroll;}
+
+body {
+	background: #706E6F;
+	text-align: center;
+	color: #000;
+	font-family: "FrutigerLTW01-55Roman", "Arial";
+	font-weight: 200;
+	font-size: 13px;
+	letter-spacing: .5px;
+	width: 100%;
+}
+
+strong {
+	font-family: "FrutigerLTW01-75Black", "Arial";
+}
+
+/* Desktop site */
+/*
+media queries are being removed for now. see application2.css.
+Those style will be moved back here when the responsive design is ready
+@media only screen and (min-width : 1008px) {
+	/* Styles */
+
+	h1 {
+		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
+		font-size: 22px;
+		margin-bottom: 12px;
+		color: #FFFFFF;		
+	}
+
+	h2 {
+		font-family: "FrutigerLTW01-75Black";
+	}
+
+	p {
+		margin-bottom: 18px;
+		line-height: 18px;
+	}
+
+	em {
+		font-family: "FrutigerLTW01-56Italic", "Arial";
+		font-style: normal;
+	}
+
+	header {
+		width: 1008px;
+		height: 173px;
+		position: relative;
+	}
+
+	header nav {
+		width: 1008px;
+		height: 42px;
+		position: absolute;
+		bottom: 0px;
+		background: #706E6F;
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+
+	header nav li {
+		float: left;
+		text-align: center;
+		padding: 13px 12px;
+		display: inline;
+		height: 16px;
+	}
+
+	header nav li a {
+		color: #FFFFFF;
+		text-decoration: none; 
+		-webkit-transition: color .25s;
+		transition: color .25s;
+	}
+
+	header nav li a:visited {
+		color: #FFFFFF;
+		-webkit-transition: color .25s;
+		transition: color .25s;
+	}
+
+	header nav li a:hover {
+		color: #CCCCCC;
+		-webkit-transition: color .25s;
+		transition: color .25s;
+	}
+
+	header nav li a.active:visited, header nav li a.active {
+		color: #999999;
+	}
+
+	header nav.main li:first-of-type {
+		background: #DB4046;
+		padding: 13px 28px;
+	}
+
+	header nav.main li:nth-of-type(2) {
+		padding-left: 28px;
+	}
+
+	header nav.main li:first-of-type:hover {
+		background: #56A1D5;
+	}
+
+	header nav.main li:first-of-type a:hover {
+		color: #FFFFFF;
+	}
+
+	header nav.supernav {
+		width: 1008px;
+		height: 136px;
+		top: 0;
+		background: #FFFFFF;
+		color: #000000;
+		text-align: center;
+		position: absolute;
+	}
+
+	header nav.supernav ul {
+		width: 1008px;
+		bottom: 32px;
+		position: absolute;
+	}
+
+	header nav.supernav li {
+		float: none;
+		padding: 0 32px;
+		cursor: pointer;
+	}
+
+	header nav.supernav li span {
+		width: 64px;
+	}
+
+
+	footer {
+		width: 1008px;
+		height: 132px;
+		background: #FFFFFF;
+	}
+
+	footer nav {
+		width: 1008px;
+		margin: 18px 0 0 43px;
+	}
+
+	footer nav ul.social li {
+		float: left;
+		margin-right: 38px;
+	}
+
+	footer figcaption {
+		font-family: "FrutigerLTW01-56Italic", "Arial";
+	}
+
+	footer aside {
+		margin-top: 24px;
+		font-size: 12px;
+	}
+
+	footer aside p {
+		margin-bottom: 14px;
+	}
+
+	footer aside span.copyright {
+		margin-right: 28px;
+	}
+
+	div#container {
+		margin: 0 auto;
+		width: 1008px;
+		text-align: center;
+		position: relative;
+		background:	#FFFFFF;
+	}
+
+	img#logo {
+		position: absolute;
+		display: block;
+		z-index: 300;
+	}
+
+	img#cnn-video {
+		position: absolute;
+		left: 124px;
+		top: 17px;
+	}
+
+	section.content a {
+		font-family: "FrutigerLTW01-75Black", "Arial";
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+	section.content a:visited {
+		font-family: "FrutigerLTW01-75Black", "Arial";
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+	section.content a:hover {
+		font-family: "FrutigerLTW01-75Black", "Arial";
+		text-decoration: underline;
+		color: #FFFFFF;
+	}
+
+	section.content {
+		width: 1008px;
+		min-height: 646px;
+		position: relative;
+		background-repeat: no-repeat; 
+	}
+
+	section.content article {
+		color: #FFFFFF;
+		font-size: 14px;
+	}
+
+	aside.endorsement {
+		position: absolute;
+		left: 222px;
+		top: 33px;
+		font-size: 15px;
+	}
+
+	aside.endorsement em {
+		font-family: "FrutigerLTW01-56Italic", "Arial";
+		font-style: normal;
+	}
+
+	article .nav li {
+		display: inline;
+		margin: 0 24px;
+	}
+
+	/* everything below should be page-specific */
+
+	/* Home Page */
+
+	body.page-index img#logo {
+		right: 94px;
+		top: 64px;
+	}
+
+	body.page-index section.content {
+		background: url(/assets/images/background-home.jpg);
+	}
+
+	/* 90 Minute Cruise */
+
+	body.page-90-minute-cruise img#logo {
+		left: 126px;
+		top: 72px;
+	}
+
+	body.page-90-minute-cruise section.content {
+		background: url(/assets/images/background-90minute.jpg);
+	}
+
+	body.page-90-minute-cruise article {
+		position: absolute;
+		width: 248px;
+		top: 300px;
+		left: 53px;
+	}
+
+	/* 60 Minute Cruise */
+
+	body.page-60-minute-cruise img#logo {
+		left: 438px;
+		top: 241px;
+	}
+
+	body.page-60-minute-cruise section.content {
+		background: url(/assets/images/background-60minute.jpg);
+	}
+
+	body.page-60-minute-cruise article {
+		position: absolute;
+		width: 340px;
+		top: 44px;
+		right: 30px;
+	}
+
+	/* CHM Cruise */
+
+	body.page-history-cruise img#logo {
+		left: 90px;
+		top: 317px;
+	}
+
+	body.page-history-cruise section.content {
+		background: url(/assets/images/background-chm.jpg);
+	}
+
+	body.page-history-cruise article {
+		position: absolute;
+		width: 700px;
+		top: 20px;
+		right: 88px;
+	}
+
+	/* Fireworks Cruise */
+
+	body.page-fireworks-cruise img#logo {
+		left: 120px;
+		top: 326px;
+	}
+
+	body.page-fireworks-cruise section.content {
+		background: url(/assets/images/background-fireworks.jpg);
+	}
+
+	body.page-fireworks-cruise article {
+		position: absolute;
+		width: 708px;
+		top: 28px;
+		left: 50px;
+	}
+
+	/* Cocktail Cruise */
+
+	body.page-cocktail-cruise img#logo {
+		right: 231px;
+		top: 123px;
+	}
+
+	body.page-cocktail-cruise section.content {
+		background: url(/assets/images/background-cocktail.jpg);
+	}
+
+	body.page-cocktail-cruise article {
+		position: absolute;
+		width: 870px;
+		top: 28px;
+		left: 34px;
+	}
+
+	/* Directions */
+
+	body.page-directions img#logo {
+		left: 37.5%;
+		top: 26.8%;
+	}
+
+	body.page-directions section.content {
+		background: url(/assets/images/background-directions.jpg);
+	}
+
+	body.page-directions article {
+		color: #000000;
+		position: absolute;
+		width: 502px;
+		top: 24px;
+		left: 22%;
+	}
+
+	body.page-directions h1 {
+		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
+		font-size: 22px;
+		margin-bottom: 12px;
+		color: #FFFFFF;
+	}
+
+	body.page-directions article a {
+		color: #000000;
+	}
+
+	body.page-directions article a:visited {
+		color: #000000;
+	}
+
+	body.page-directions article a:hover {
+		color: #000000;
+	}
+
+	/* Contact */
+
+	body.page-contact img#logo {
+		left: 57%;
+		top: 45%;
+	}
+
+	body.page-contact section.content {
+		background: url(/assets/images/background-contact.jpg);
+	}
+
+	body.page-contact article {
+		position: absolute;
+		width: 420px;
+		top: 28px;
+		left: 6%;
+		color: #000000;
+		font-family: "FrutigerLTW01-75Black";
+	}
+
+	body.page-contact article p {
+		margin-bottom: 12px;
+	}
+
+	body.page-contact article a {
+		color: #000000;
+	}
+
+	body.page-contact article a:visited {
+		color: #000000;
+	}
+
+	body.page-contact article a:hover {
+		color: #000000;
+	}
+
+	/* Gifts */
+
+	body.page-gifts img#logo {
+		left: 61.7%;
+		top: 7.2%;
+	}
+
+	body.page-gifts h1 {
+		color: #000000;
+	}
+
+	body.page-gifts section.content {
+		background: url(/assets/images/background-gifts.jpg);
+	}
+
+	body.page-gifts article {
+		position: absolute;
+		width: 57%;
+		top: 28px;
+		left: 0;
+		color: #000000;
+	}
+
+	body.page-gifts article p {
+		margin-bottom: 12px;
+	}
+
+	body.page-gifts article h1 {
+		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
+		font-size: 22px;
+		margin-bottom: 12px;
+	}
+
+	body.page-gifts div#ticket-purchase {
+		background: url(/assets/images/tickets.jpg);
+	  background-position-x: center;
+	  width: 100%;
+	  height: 383px;
+	  background-repeat: no-repeat;
+	  position: relative;
+	  top: -12px
+	}
+
+	body.page-gifts div#ticket-purchase img {
+		position: absolute;
+	  right: 22.5%;
+	  top: 0;
+	}
+
+	/* Accolades */
+
+	body.page-accolades img#logo {
+		right: 4.7%;
+		top: 47.8%;
+	}
+
+	body.page-accolades section.content {
+		background: url(/assets/images/background-accolades.jpg);
+	}
+
+	body.page-accolades article {
+		position: absolute;
+		width: 57%;
+		top: 28px;
+		left: 0;
+		color: #000000;
+	}
+
+	body.page-accolades article p {
+		margin-bottom: 12px;
+	}
+
+	body.page-accolades article span.reviewer {
+		font-family: "FrutigerLTW01-66BoldIta", "Arial";
+	}
+
+	body.page-accolades ul.nav {
+		margin-bottom: 24px;
+	}
+
+	/* Groups */
+
+	body.page-groups img#logo {
+		left: 18.4%;
+		top: 29px;
+	}
+
+	body.page-groups section.content {
+		background: url(/assets/images/background-groups.jpg);
+	}
+
+	body.page-groups article {
+		position: absolute;
+		width: 420px;
+		top: 150px;
+		left: 2%;
+		color: #000000;
+	}
+
+	body.page-groups article a {
+		color: #000000;
+	}
+
+	body.page-groups article a:visited {
+		color: #000000;
+	}
+
+	body.page-groups article a:hover {
+		color: #000000;
+	}
+
+	/* Schedules */
+
+	body.page-schedules img#logo {
+		left: 62.9%;
+		top: 7.6%;
+	}
+
+	body.page-schedules section.content {
+		background: url(/assets/images/background-schedules.jpg);
+	}
+
+	body.page-schedules article {
+		position: absolute;
+		width: 57%;
+		top: 40px;
+		left: 0;
+		color: #000000;
+	}
+
+	body.page-schedules article a, body.page-schedules article h1 {
+		color: #000000;
+	}
+
+	body.page-schedules article a:visited {
+		color: #000000;
+	}
+
+	body.page-schedules article a:hover {
+		color: #000000;
+	}
+
+	body.page-schedules article p {
+		margin-bottom: 10px;
+	}
+
+	body.page-schedules article img {
+		margin-bottom: 2px;
+	}
+
+	/* 60 & 90 Minute Detail */
+
+	body.page-architectural-cruise-detail img#logo {
+		right: 18.4%;
+		top: 29px;
+	}
+
+	body.page-architectural-cruise-detail section.content {
+		background: url(/assets/images/background-detail.jpg);
+	}
+
+	body.page-architectural-cruise-detail article {
+		position: absolute;
+		width: 57%;
+		top: 46px;
+		left: 0;
+		color: #000000;
+	}
+
+	body.page-architectural-cruise-detail article h1 {
+		color: #000000;
+	}
+
+	body.page-architectural-cruise-detail article ul.nav {
+		margin-top: 32px;
+	}
+
+	body.page-architectural-cruise-detail div#docents {
+		position: absolute;
+		top: 32px;
+		right: 0;
+		width: 42.8%;
+	}
+
+	body.page-architectural-cruise-detail div#docents figure {
+		width: 33.3%;
+		height: 151px;
+		float: left;
+	}
+
+	body.page-architectural-cruise-detail div#docents figcaption {
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-family: "FrutigerLTW01-75Black";
+		padding-top: 15px;
+	}
+
+	body.page-architectural-cruise-detail div#docents figcaption.shadow {
+	  text-shadow: 2px 2px 2px #000;
+	}
+
+	body.page-architectural-cruise-detail div#docents .cnn {
+		margin-top: 22px;
+	}
+
+	/* Routes */
+
+	body.page-cruise-routes img.route-map {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	body.page-cruise-routes section.content ul {
+		position: absolute;
+		top: 30px;
+		left: 33px;
+		z-index: 100;
+	}
+
+	body.page-cruise-routes section.content ul li {
+		display: block;
+		height: 56px;
+		position: relative;
+	}
+
+	body.page-cruise-routes section.content ul li img {
+		cursor: pointer;
+	}
+
+	body.page-cruise-routes img.route-map {
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		-webkit-transition: opacity .1s ease-out;
+		transition: opacity .1s ease-out;
+	}
+
+	body.page-cruise-routes img.route-map.active {
+		display: block;
+		opacity: 1;
+		-webkit-transition: opacity .1s ease-in;
+		transition: opacity .1s ease-in;
+	}
+
+	body.page-cruise-routes article {
+		display: none;
+		opacity: 0;
+		left: 71px;
+		bottom: 68px;
+		z-index: 200;
+		position: absolute;
+	}
+
+	body.page-cruise-routes article.active {
+		display: block;
+		opacity: 1;
+	}
+
+	body.page-cruise-routes section.content {
+		background: #706E6F;
+	}
+
+	/* Us */
+
+	body.page-about img#logo {
+		right: 8.6%;
+		top: 7.4%;
+	}
+
+	body.page-about h1 {
+		color: #000000;
+		margin-bottom: 38px;
+	}
+
+	body.page-about section.content {
+		background: url(/assets/images/background-us.jpg);
+	}
+
+	body.page-about article {
+		color: #000000;
+		position: absolute;
+		width: 57%;
+		top: 50px;
+		left: 0;
+		font-size: 15px;
+	}
+
+	body.page-about article ul.nav {
+		margin-top: 45px;
+	}
+
+
+	/* Charters */
+
+	body.page-charters img#logo {
+		left: 17.1%;
+		top: 256px;
+	}
+
+	body.page-charters section.content {
+		background: url(/assets/images/background-charters.jpg);
+	}
+
+	body.page-charters article {
+		color: #FFFFFF;
+		position: absolute;
+		width: 43.6%;
+		top: 60px;
+		left: 0;
+		font-size: 15px;
+	}
+
+	/* FAQ */
+
+	body.page-faq img#logo {
+		right: 29.3%;
+		top: 4.6%;
+	}
+
+	body.page-faq section.content {
+		background: url(/assets/images/background-faq.jpg);
+	}
+
+	body.page-faq article {
+		color: #000000;
+		position: absolute;
+		width: 57%;
+		top: 26px;
+		left: 0;
+		font-size: 14px;
+	}
+
+	body.page-faq article a {
+		color: #000000;
+	}
+
+	body.page-faq article a:visited {
+		color: #000000;
+	}
+
+	body.page-faq article a:hover {
+		color: #000000;
+	}
+
+	/* CHM Detail */
+
+	body.page-history-cruise-detail img#logo {
+		right: 20.4%;
+		top: 5.1%;
+	}
+
+	body.page-history-cruise-detail section.content {
+		background: url(/assets/images/background-chm-detail.jpg);
+	}
+
+	body.page-history-cruise-detail article {
+		position: absolute;
+		width: 57%;
+		top: 46px;
+		left: 0;
+		color: #000000;
+	}
+
+	body.page-history-cruise-detail article h1 {
+		color: #000000;
+	}
+
+	body.page-history-cruise-detail article ul.nav {
+		margin-top: 32px;
+	}
+
+	body.page-history-cruise-detail article a {
+		color: #000000;
+	}
+
+	body.page-history-cruise-detail article a:visited {
+		color: #000000;
+	}
+
+	body.page-history-cruise-detail article a:hover {
+		color: #000000;
+	}
+
+		/* Boats */
+
+	body.page-boats img#logo {
+		right: 3%;
+		top: 4.8%;
+	}
+
+	body.page-boats article {
+		position: absolute;
+		top: 22px;
+		left: 22px;
+		color: #000000;
+	}
+
+	body.page-boats article h1 {
+		color: #000000;
+	}
+
+	body.page-boats article p {
+		position: relative;
+		left: 300px;
+	}
+
+	body.page-boats ul.nav {
+		position: absolute;
+		left: 13.4%;
+		top: 16.25%;
+		text-align: left;
+	}
+
+	body.page-boats ul.nav li {
+		line-height: 24px;
+		cursor: pointer;
+	}
+
+
+	body.page-boats ul.nav li:hover {
+		text-decoration: underline;
+	}
+
+	body.page-boats ul.nav li.active {
+		list-style-image: url('/assets/images/li-circle-red.png');
+	}
+
+	body.page-boats article a {
+		color: #000000;
+	}
+
+	body.page-boats article a:visited {
+		color: #000000;
+	}
+
+	body.page-boats article a:hover {
+		color: #000000;
+	}
+
+	body.page-boats img.boat-plans {
+		display: none;
+	}
+
+	body.page-boats img.boat-plans.active {
+		display: block;
+	}
+
+				/*} */
+
+
+/*Everything else
+@media only screen and (max-device-width : 1007px) {
+	see application2.css 
+} 
+*/
