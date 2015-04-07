@@ -150,6 +150,10 @@ Those style will be moved back here when the responsive design is ready
 		margin-right: 38px;
 	}
 
+	body.page-index footer aside {
+		display: none;
+	}
+
 	footer figcaption {
 		font-family: "FrutigerLTW01-56Italic", "Arial";
 	}
@@ -245,6 +249,18 @@ Those style will be moved back here when the responsive design is ready
 
 	body.page-index section.content {
 		background: url(/assets/images/background-home.jpg);
+	}
+
+	body.page-index section.content article {
+		color: #000000;
+		position: absolute;
+		bottom: -220px;
+		font-size: 12px;
+		width: 100%;
+	}
+
+	body.page-index footer {
+		height: 222px;
 	}
 
 	/* 90 Minute Cruise */

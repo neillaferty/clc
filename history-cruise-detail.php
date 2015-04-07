@@ -25,7 +25,7 @@
 
         <img alt="Starbucks" width="97" height="144" src="/assets/images/starbucks-cup.jpg">
 
-        <p>The very same <a href="6090details.php">docents</a> responsible for Chicago Line&rsquo;s<br>
+        <p>The very same <a href="/architectural-cruise-detail.php">docents</a> responsible for Chicago Line&rsquo;s<br>
         signature architectural tour present our newest river cruise<br>
         in partnership with the <a href="http://www.chicagohistory.org/" target="_blank">Chicago History Museum</a>.</p>
 

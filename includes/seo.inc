@@ -24,7 +24,7 @@
 
 	//meta descriptions
 	$seo_description = array();
-	$seo_description['index'] = "Chicago Line Cruises offers the best architecture river tours in Chicago, with the most knowledable docents.";
+	$seo_description['index'] = "Praised &ldquo;Best architecture tour available&rdquo; by the Chicago Sun-Times and &ldquo;Most engaging tour of the bunch&rdquo; by Time Out Chicago, this river cruise has provided more than three million Chicagoans and visitors both stunning views and a deeper appreciation for architectural design";
 	$seo_description['60-minute-cruise'] = "During this one-hour architecture river cruise our expert docent will present more than 35 skyscrapers, bascule bridges, and historic sites.";
 	$seo_description['90-minute-cruise'] = "Throughout our signature 90 minute architecture cruise our professional docent will present more than 50 skyscrapers, bascule bridges, and historic sites.";
 	$seo_description['history-cruise'] = "Chicago's oldest museum presents our newest river cruise: For 90 minutes both history and design buffs alike will enjoy many 'I did not know that' moments as our docent shares Chicago’s story, including its 6-year transformation from a city without a recognizable landmark to center of world architecture.";
