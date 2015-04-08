@@ -254,13 +254,25 @@ Those style will be moved back here when the responsive design is ready
 	body.page-index section.content article {
 		color: #000000;
 		position: absolute;
-		bottom: -220px;
-		font-size: 12px;
+		bottom: -212px;
+		font-size: 12.5px;
 		width: 100%;
 	}
 
+	body.page-index section.content article a {
+		color: #000000;
+	}
+
+	body.page-index section.content article a:visited {
+		color: #000000;
+	}
+
+	body.page-index section.content article a:hover {
+		color: #000000;
+	}
+
 	body.page-index footer {
-		height: 222px;
+		height: 212px;
 	}
 
 	/* 90 Minute Cruise */
