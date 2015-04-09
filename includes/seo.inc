@@ -22,7 +22,7 @@
 	$seo_title['contact'] = "Contact Us" . SEO_TITLE_SEPARATOR . SITE_NAME;
 	$seo_title['history-cruise-detail'] = "Learn More About Our Chicago History Museum River Cruise" . SEO_TITLE_SEPARATOR . SITE_NAME;
 
-	//meta descriptions
+	// meta descriptions
 	$seo_description = array();
 	$seo_description['index'] = "Praised &ldquo;Best architecture tour available&rdquo; by the Chicago Sun-Times and &ldquo;Most engaging tour of the bunch&rdquo; by Time Out Chicago, this river cruise has provided more than three million Chicagoans and visitors both stunning views and a deeper appreciation for architectural design";
 	$seo_description['60-minute-cruise'] = "During this one-hour architecture river cruise our expert docent will present more than 35 skyscrapers, bascule bridges, and historic sites.";
