@@ -37,7 +37,7 @@
 				a docent — and thus a new industry was born.</p>
 
 				<p>&ldquo;CFL&rdquo; moved to North Pier on the &ldquo;Ogden Slip&rdquo;, added
-				the <em>Ft. Dearborn, Marquette,</em> and <em>Innisfree</em> to its fleet and became
+				the <em>Ft.&nbsp;Dearborn, Marquette,</em> and <em>Innisfree</em> to its fleet and became
 				Chicago Line Cruises.  More than 3 million visitors have since
 				enjoyed our narrated tour through the city of broad shoulders
 				and vertical dreams, and we hope you will too.</p>
