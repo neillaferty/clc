@@ -1,5 +1,17 @@
 $(function() {
 
+	// Mobile Navigation	 
+	 $('.mnav-icon').click(function() {
+		$('.responsive-menu').slideToggle(400, function(){
+			if($(this).is(':visible')){
+				$('.mnav-icon').css('background-position-y','-107px');
+			} else {
+				$('.mnav-icon').css('background-position-y','0px');
+			}
+		});
+		return false;
+	});
+
   $('nav.supernav li img').hover(function() {
     if (!$(this).hasClass('active')) {
     	var imgSrc = $(this).attr('src');
@@ -72,5 +84,6 @@ $(function() {
 		"/assets/images/nav/fireworks-active.png",
 		"/assets/images/nav/cocktail-active.png"
 	);
+	
 });
 

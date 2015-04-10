@@ -43,8 +43,16 @@
         <h2>90 Minute Fireworks Cruise:</h2>
         <p>Sails Saturdays from May 22nd thru August 30th:&nbsp;&nbsp;<strong>9:30p</strong></p>
 
-        <a href="<?php echo PURCHASE_URL; ?>"><img class="cruise-icon" alt="Purchase Tickets" width="47" height="57" src="/assets/images/icons/color-purchase.png" alt="Purchase Tickets"></a>
+        <div class="schedule-purchase">
+        	<a href="<?php echo PURCHASE_URL; ?>"><img class="cruise-icon" alt="Purchase Tickets" width="47" height="57" src="/assets/images/icons/color-purchase.png" alt="Purchase Tickets"></a>
+        </div>
 
+		<ul class="mobile-icons clearfix">
+			<li><a href="<?php echo PURCHASE_URL; ?>" onClick="ga('send', 'event', { eventCategory: 'Purchase Ticket', eventAction: 'Start Checkout', eventLabel: 'clicked'});"><img alt="Purchase Tickets" src="/assets/images/icons/mobile-purchase.png"></a></li>
+			<li><a href="/directions.php"><img alt="Cruise Location" src="/assets/images/icons/mobile-location.png"></a></li>
+			<li><a href="/contact.php"><img alt="Contact" src="/assets/images/icons/mobile-phone.png"></a></li>
+		</ul>
+				
   		</article>
 
 

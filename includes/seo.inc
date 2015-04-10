@@ -19,8 +19,20 @@
 	$seo_title['groups'] = "Group Discount Rates" . SEO_TITLE_SEPARATOR . SITE_NAME;
 	$seo_title['about'] = "About Us" . SEO_TITLE_SEPARATOR . SITE_NAME;
 	$seo_title['gifts'] = "Gifts" . SEO_TITLE_SEPARATOR . SITE_NAME;
-	$seo_title['contact'] = "Contact Us" . SEO_TITLE_SEPARATOR . SITE_NAME;
+	$seo_title['contact'] = "Contact" . SEO_TITLE_SEPARATOR . SITE_NAME;
 	$seo_title['history-cruise-detail'] = "Learn More About Our Chicago History Museum River Cruise" . SEO_TITLE_SEPARATOR . SITE_NAME;
+	$seo_title['docents'] = "Our Docents" . SEO_TITLE_SEPARATOR . SITE_NAME;
+
+	// mobile headers
+	$mobile_header = array();
+	$mobile_header['cruises'] = "Cruises";
+	$mobile_header['docents'] = "Our Docents";
+	$mobile_header['contact'] = "Contact";
+	$mobile_header['schedules'] = "Schedules";
+	$mobile_header['directions'] = "Directions";
+	$mobile_header['about'] = "About Us / Boats";
+	$mobile_header['faq'] = "Ticket Prices / FAQ";
+	
 
 	// meta descriptions
 	$seo_description = array();
@@ -58,5 +70,10 @@
 			$title_tag = $title['index'];
 		}
 		echo "<title>" . $title_tag . "</title>";
+	}
+
+	function outputPageTitle($page, $header) {
+		$mobile_title = $header[$page];
+		echo $mobile_title;
 	}
 

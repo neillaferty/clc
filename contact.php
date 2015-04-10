@@ -19,10 +19,15 @@
       <a href="/"><img id="logo" alt="Chicago Line Cruises Home Page" width="100" height="99" src="/assets/images/home-logo.png"></a>
 
   		<article>
-        <p>Sail with us through our ever-growing,<br>
-        ever-changing City!  For more information ask your<br>
-        concierge, or call us at 312-527-1977!</p>
-        <p><a href="mailto:contactus@chicagoline.com"><img alt="Email Us" width="28" height="19" src="/assets/images/icons/email.png"></a></p>
+			<ul class="mobile-icons">
+				<li><img alt="Contact" src="/assets/images/icons/mobile-phone.png"></li>
+			</ul>
+			<div class="contact-content">
+			<p>Sail with us through our ever-growing,
+			ever-changing City!  For more information ask your
+			concierge, or call us at 312-527-1977!</p>
+			</div>
+			<p class="desktop-email"><a href="mailto:contactus@chicagoline.com"><img alt="Email Us" width="28" height="19" src="/assets/images/icons/email.png"></a></p>
   		</article>
 
 

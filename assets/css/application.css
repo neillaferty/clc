@@ -15,12 +15,192 @@ strong {
 	font-family: "FrutigerLTW01-75Black", "Arial";
 }
 
-/* Desktop site */
-/*
-media queries are being removed for now. see application2.css.
-Those style will be moved back here when the responsive design is ready
-@media only screen and (min-width : 1008px) {
+div.float-right { float:right; }
+
 	/* Styles */
+
+
+/* Mobile */
+
+@media only screen and (max-width : 740px) {
+	body { background: #fff; }
+	body.page-index section.content {
+		background: url(/assets/images/background-home-m.jpg);
+		background-size: 100%;
+		min-height: 400px; 
+	}
+	
+	section.content article { width: 85%; margin: 0 auto; }
+	section.content article p { padding: 20px 0px; }
+	section.content article img.full { width: 120%; margin-left: -10%; }
+	footer {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+
+	footer nav {
+		margin-top: 18px;
+	}
+	footer nav ul.social { margin: 0 auto; width: 320px; }
+	footer nav ul.social li {
+		float: left;
+		margin: 0 12px 0 12px;
+	}
+
+	ul.social li:nth-child(6),ul.social li:nth-child(7){ display:none; }
+
+	body.page-index footer aside {
+		width: 300px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 15px;
+	}
+	
+	footer aside#footer-text { display:none; }
+	footer aside#footer-text-m p { color:#818285; width: 310px; }
+	footer figcaption {	display:none; }
+
+	footer aside {
+		margin-top: 24px;
+		font-size: 12px;
+	}
+	
+	header nav.supernav, header nav.main { display: none; }
+	header nav { height: 50px; }
+	header nav.mnav { 
+		margin: 0 auto;
+		width: 100%; 
+	}
+	ul.mobile-icons { text-align: center; }
+	ul.mobile-icons li { display: inline-block; }
+	
+	ul.mobile li { 
+		float: left; 
+		padding: 8px 14px;
+	}
+	.mnav-icon { 
+		width: 10px;
+		height: 20px; 
+		float: right !important; 
+		background: url(/assets/images/nav/mnav-menu.png);
+		margin: 8px;
+	}
+	div.responsive-menu {
+		position: absolute; 
+		top: 50px;
+		left: 0;
+		display: none;
+		z-index: 9999999999;
+	}
+	.responsive-menu li {
+		width: 100%;
+		float: left;
+		text-align: left;
+		font-size: 16px;
+		color: #fff;
+	}
+	.responsive-menu li a { 
+		width:100%;
+		background: #676767;
+		text-decoration: none; 		
+		color: #fff;
+		display: inline-block;
+		padding: 11px 0px 11px 20px;		
+	}
+	.responsive-menu li a:focus { background: #999; }
+	li a.purchase { background-color: #db4046; }
+	li a.purchase:focus { background-color: #6599cd; }
+	
+	h1 {
+		font-family: "Frutiger LT W01_65 Bold", "Arial Condensed";
+		font-size: 15px;
+		text-transform: uppercase;	
+		font-kerning: 
+	}
+	h2 {
+		font-family: "FrutigerLTW01-75Black";
+		color: #ee3923;
+		padding-top: 10px;
+	}
+	.page-title {
+		text-align: center;
+		display: inline-block;
+		padding-top: 15px;
+	}
+	
+	/* Mobile Home */
+	body.page-index img#logo { margin-top: 125px; }
+	aside.endorsement, aside.cnn { display:none; }
+	body.page-index section.content article { display:none; }
+	body.page-index div.mobile { margin: 0 auto; width: 90%; }
+	div.mobile p { margin-bottom: 18px; line-height: 18px; }
+	
+	/* Mobile Contact */
+	body.page-contact section.content #logo { display: none; }
+	body.page-contact section.content {
+		background: url(/assets/images/background-contact.jpg);
+		background-size: 240%;
+		background-position-x: -180px;
+		min-height: 400px; 
+	}	
+	p.desktop-email { display: none; }
+	div.contact-content { 
+		font-family: "FrutigerLTW01-75Black";
+		margin-top: -20px;
+	}
+
+	/* Mobile FAQ */
+	body.page-faq section.content #logo { display: none; }
+		
+	/* Mobile Directions */
+	body.page-directions section.content #logo { display: none; }
+	body.page-directions section.content {
+		background: url(/assets/images/background-directions.jpg);
+		background-size: 240%;
+		background-position-x: -240px;
+		min-height: 550px; 
+	}
+	body.page-directions article h1 {
+		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
+		font-size: 16px;
+		padding-top: 15px;
+		color: #FFFFFF;
+		text-transform: none;
+	}
+	.heading-style { margin: 0 auto; width: 90%; }
+	.map-directions { display: none; }
+	
+	/*  Mobile Schedules */
+	body.page-schedules img#logo { display: none; }
+	div.schedule-purchase { display: none; }
+	body.page-schedules article h1 { display: none; }
+	
+	/* Mobile About Us */
+	body.page-about img#logo { display: none; }
+	body.page-about article h1 {
+		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
+		font-size: 18px;
+		padding-top: 15px;
+		color: #FFFFFF;
+		text-transform: none;
+		position: absolute;
+		top: 80px;
+		left: 20px;
+		width: 26%;
+	}
+	body.page-about .desktop-icons { display:none; }
+	.about-boats h2 { 
+		color:#000; 
+		font-size: 20px; 
+		font-family: "FrutigerLTW01-45Light","Arial Condensed"; 
+	}
+	.about-content { width: 90%; margin: 0 auto; }
+}	
+	
+	
+/* Desktop site */
+
+@media only screen and (min-width : 741px) {
 
 	h1 {
 		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
@@ -48,7 +228,9 @@ Those style will be moved back here when the responsive design is ready
 		height: 173px;
 		position: relative;
 	}
-
+	
+	header nav.mnav { display:none; }
+	
 	header nav {
 		width: 1008px;
 		height: 42px;
@@ -170,6 +352,8 @@ Those style will be moved back here when the responsive design is ready
 	footer aside span.copyright {
 		margin-right: 28px;
 	}
+	
+	footer aside#footer-text-m { display:none; }
 
 	div#container {
 		margin: 0 auto;
@@ -233,11 +417,15 @@ Those style will be moved back here when the responsive design is ready
 		font-style: normal;
 	}
 
+	aside.cnn { display: block; }
+
 	article .nav li {
 		display: inline;
 		margin: 0 24px;
 	}
 
+	ul.mobile-icons { display: none; }
+	
 	/* everything below should be page-specific */
 
 	/* Home Page */
@@ -250,29 +438,18 @@ Those style will be moved back here when the responsive design is ready
 	body.page-index section.content {
 		background: url(/assets/images/background-home.jpg);
 	}
+	body.page-index section.content div.mobile { display:none; }
 
 	body.page-index section.content article {
 		color: #000000;
 		position: absolute;
-		bottom: -212px;
-		font-size: 12.5px;
+		bottom: -220px;
+		font-size: 12px;
 		width: 100%;
 	}
 
-	body.page-index section.content article a {
-		color: #000000;
-	}
-
-	body.page-index section.content article a:visited {
-		color: #000000;
-	}
-
-	body.page-index section.content article a:hover {
-		color: #000000;
-	}
-
 	body.page-index footer {
-		height: 212px;
+		height: 222px;
 	}
 
 	/* 90 Minute Cruise */
@@ -402,7 +579,9 @@ Those style will be moved back here when the responsive design is ready
 	body.page-directions article a:hover {
 		color: #000000;
 	}
-
+	.heading-style { width: 500px; }
+	.mobile-map { display: none; }
+	
 	/* Contact */
 
 	body.page-contact img#logo {
@@ -438,6 +617,7 @@ Those style will be moved back here when the responsive design is ready
 	body.page-contact article a:hover {
 		color: #000000;
 	}
+	div.contact-content { width: 100%; }
 
 	/* Gifts */
 
@@ -710,7 +890,7 @@ Those style will be moved back here when the responsive design is ready
 		right: 8.6%;
 		top: 7.4%;
 	}
-
+	body.page-about .about-boats { display: none; }
 	body.page-about h1 {
 		color: #000000;
 		margin-bottom: 38px;
@@ -732,8 +912,9 @@ Those style will be moved back here when the responsive design is ready
 	body.page-about article ul.nav {
 		margin-top: 45px;
 	}
+	.about-content { width: 88%; margin: 0 auto; }
 
-
+	
 	/* Charters */
 
 	body.page-charters img#logo {
@@ -825,7 +1006,7 @@ Those style will be moved back here when the responsive design is ready
 		color: #000000;
 	}
 
-		/* Boats */
+	/* Boats */
 
 	body.page-boats img#logo {
 		right: 3%;
@@ -889,11 +1070,5 @@ Those style will be moved back here when the responsive design is ready
 		display: block;
 	}
 
-				/*} */
-
-
-/*Everything else
-@media only screen and (max-device-width : 1007px) {
-	see application2.css 
-} 
-*/
+	img#starbucks { display:none; }
+}
