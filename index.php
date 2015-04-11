@@ -37,6 +37,13 @@
   		</aside>
   		
     </section>
+    
+	 <div class="mobile">
+		<p>Praised "Best architecture tour available" by the Chicago Sun-Times and "Most engaging tour of the bunch" by Time Out Chicago, this river cruise has provided more than three million Chicagoans and visitors both stunning views and a deeper appreciation for architectural design.</p>
+		<p>As you sail down the Chicago River a certified professional docent interprets more than 50 "cloud busters", the story behind each skyscraper, and the historical events that gave birth to the world's center of modern architecture.</p>
+		<p>Tours are offered seven days a week, April through November, and all 90 and 60 minute cruises include complimentary Starbucks Coffee, lemonade, Coca-Cola soft drinks, muffins and cookies. Chicago Line Cruises ticket office and boats are located just north of the Centennial Fountain at 465 N. McClurg Court.  Call 312-527-1977 or purchase tickets online.</p>
+		<p>&copy; Chicago From The Lake, Ltd.</p>
+	</div>
 
   	<footer>
 
@@ -47,13 +54,6 @@
       <?php include($DOCUMENT_ROOT.'includes/footer-text.inc'); ?>
 
   	</footer>
-
-	 <div class="mobile">
-		<p>Praised “Best architecture tour available” by the Chicago Sun-Times and "Most engaging tour of the bunch" by Time Out Chicago, this river cruise has provided more than three million Chicagoans and visitors both stunning views and a deeper appreciation for architectural design.</p>
-		<p>As you sail down the Chicago River a certified professional docent interprets more than 50 "cloud busters", the story behind each skyscraper, and the historical events that gave birth to the world's center of modern architecture.</p>
-		<p>Tours are offered seven days a week, April through November, and all 90 and 60 minute cruises include complimentary Starbucks Coffee, lemonade, Coca-Cola soft drinks, muffins and cookies. Chicago Line Cruises ticket office and boats are located just north of the Centennial Fountain at 465 N. McClurg Court.  Call 312-527-1977 or purchase tickets online.</p>
-		<p>&copy; Chicago From The Lake, Ltd.</p>
-	</div>
 
   </div>
 

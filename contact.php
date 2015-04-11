@@ -20,7 +20,7 @@
 
   		<article>
 			<ul class="mobile-icons">
-				<li><img alt="Contact" src="/assets/images/icons/mobile-phone.png"></li>
+				<li><a href="tel:+13125271977"><img alt="Contact" src="/assets/images/icons/mobile-phone.png"></a></li>
 			</ul>
 			<div class="contact-content">
 			<p>Sail with us through our ever-growing,

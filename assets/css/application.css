@@ -22,7 +22,7 @@ div.float-right { float:right; }
 
 /* Mobile */
 
-@media only screen and (max-width : 740px) {
+@media only screen and (max-width : 667px) {
 	body { background: #fff; }
 	body.page-index section.content {
 		background: url(/assets/images/background-home-m.jpg);
@@ -31,7 +31,7 @@ div.float-right { float:right; }
 	}
 	
 	section.content article { width: 85%; margin: 0 auto; }
-	section.content article p { padding: 20px 0px; }
+	section.content article p { padding: 10px 0px; }
 	section.content article img.full { width: 120%; margin-left: -10%; }
 	footer {
 		width: 100%;
@@ -41,7 +41,7 @@ div.float-right { float:right; }
 	footer nav {
 		margin-top: 18px;
 	}
-	footer nav ul.social { margin: 0 auto; width: 320px; }
+	footer nav ul.social { margin: 0 auto; width: 320px; padding-bottom: 10px; }
 	footer nav ul.social li {
 		float: left;
 		margin: 0 12px 0 12px;
@@ -71,7 +71,7 @@ div.float-right { float:right; }
 		margin: 0 auto;
 		width: 100%; 
 	}
-	ul.mobile-icons { text-align: center; }
+	ul.mobile-icons { text-align: center; padding-bottom: 20px; }
 	ul.mobile-icons li { display: inline-block; }
 	
 	ul.mobile li { 
@@ -129,18 +129,19 @@ div.float-right { float:right; }
 	}
 	
 	/* Mobile Home */
-	body.page-index img#logo { margin-top: 125px; }
+	body.page-index img#logo { margin-top: 115px; width: 140px; height: 140px; }
 	aside.endorsement, aside.cnn { display:none; }
 	body.page-index section.content article { display:none; }
-	body.page-index div.mobile { margin: 0 auto; width: 90%; }
+	body.page-index div.mobile { margin: 0 auto; width: 90%; padding-top:15px; }
 	div.mobile p { margin-bottom: 18px; line-height: 18px; }
+	body.page-index #footer-text-m { display: none; }
 	
 	/* Mobile Contact */
 	body.page-contact section.content #logo { display: none; }
 	body.page-contact section.content {
 		background: url(/assets/images/background-contact.jpg);
-		background-size: 240%;
-		background-position-x: -180px;
+		background-size: 275%;
+		background-position-x: -255px;
 		min-height: 400px; 
 	}	
 	p.desktop-email { display: none; }
@@ -167,32 +168,39 @@ div.float-right { float:right; }
 		color: #FFFFFF;
 		text-transform: none;
 	}
-	.heading-style { margin: 0 auto; width: 90%; }
+	.mobile-map-directions { margin: 0 auto; width: 90%; padding-top: 15px; }
+	.mobile-map-directions .heading { 
+		font-family: "FrutigerLTW01-45Light", "Arial Condensed"; 
+		font-size: 16px; 
+		color: #FFFFFF; 
+	}
 	.map-directions { display: none; }
 	
 	/*  Mobile Schedules */
 	body.page-schedules img#logo { display: none; }
 	div.schedule-purchase { display: none; }
 	body.page-schedules article h1 { display: none; }
+	body.page-schedules h2 { color: #000; }
 	
 	/* Mobile About Us */
 	body.page-about img#logo { display: none; }
 	body.page-about article h1 {
 		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
-		font-size: 18px;
 		padding-top: 15px;
 		color: #FFFFFF;
 		text-transform: none;
-		position: absolute;
-		top: 80px;
-		left: 20px;
-		width: 26%;
+		color:#000; 
+		font-size: 20px; 
+		width: 80%;
+		margin: 0 auto;
 	}
 	body.page-about .desktop-icons { display:none; }
 	.about-boats h2 { 
 		color:#000; 
 		font-size: 20px; 
 		font-family: "FrutigerLTW01-45Light","Arial Condensed"; 
+		width: 70%;
+		margin: 0 auto;
 	}
 	.about-content { width: 90%; margin: 0 auto; }
 }	
@@ -200,7 +208,7 @@ div.float-right { float:right; }
 	
 /* Desktop site */
 
-@media only screen and (min-width : 741px) {
+@media only screen and (min-width : 668px) {
 
 	h1 {
 		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
@@ -438,7 +446,7 @@ div.float-right { float:right; }
 	body.page-index section.content {
 		background: url(/assets/images/background-home.jpg);
 	}
-	body.page-index section.content div.mobile { display:none; }
+	body.page-index div.mobile { display:none; }
 
 	body.page-index section.content article {
 		color: #000000;
@@ -579,7 +587,8 @@ div.float-right { float:right; }
 	body.page-directions article a:hover {
 		color: #000000;
 	}
-	.heading-style { width: 500px; }
+	.map-directions { width: 500px; }
+	.mobile-map-directions { display: none; }
 	.mobile-map { display: none; }
 	
 	/* Contact */
@@ -945,7 +954,7 @@ div.float-right { float:right; }
 	body.page-faq section.content {
 		background: url(/assets/images/background-faq.jpg);
 	}
-
+	body.page-faq .faq-content { width: 90%; margin: 0 auto; }
 	body.page-faq article {
 		color: #000000;
 		position: absolute;
