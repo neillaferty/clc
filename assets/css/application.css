@@ -107,7 +107,7 @@ div.float-right { float:right; }
 		display: inline-block;
 		padding: 11px 0px 11px 20px;		
 	}
-	.responsive-menu li a:focus { background: #999; }
+	.responsive-menu li a:hover { background: #999; }
 	li a.purchase { background-color: #db4046; }
 	li a.purchase:focus { background-color: #6599cd; }
 	
@@ -129,7 +129,7 @@ div.float-right { float:right; }
 	}
 	
 	/* Mobile Home */
-	body.page-index img#logo { margin-top: 115px; width: 140px; height: 140px; }
+	body.page-index img#logo { margin-top: 125px; width: 140px; height: 140px; }
 	aside.endorsement, aside.cnn { display:none; }
 	body.page-index section.content article { display:none; }
 	body.page-index div.mobile { margin: 0 auto; width: 90%; padding-top:15px; }
@@ -147,7 +147,8 @@ div.float-right { float:right; }
 	p.desktop-email { display: none; }
 	div.contact-content { 
 		font-family: "FrutigerLTW01-75Black";
-		margin-top: -20px;
+		width: 62%;
+		text-align: left;
 	}
 
 	/* Mobile FAQ */
@@ -170,8 +171,7 @@ div.float-right { float:right; }
 	}
 	.mobile-map-directions { margin: 0 auto; width: 90%; padding-top: 15px; }
 	.mobile-map-directions .heading { 
-		font-family: "FrutigerLTW01-45Light", "Arial Condensed"; 
-		font-size: 16px; 
+		font-family: "Frutiger LT W01_65 Bold", "Arial Condensed"; 
 		color: #FFFFFF; 
 	}
 	.map-directions { display: none; }
@@ -202,7 +202,7 @@ div.float-right { float:right; }
 		width: 70%;
 		margin: 0 auto;
 	}
-	.about-content { width: 90%; margin: 0 auto; }
+	.about-content { margin: 0 auto; }
 }	
 	
 	
@@ -458,6 +458,9 @@ div.float-right { float:right; }
 
 	body.page-index footer {
 		height: 222px;
+	}
+	body.page-index section.content a {
+		color: #000;
 	}
 
 	/* 90 Minute Cruise */

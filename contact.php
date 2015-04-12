@@ -19,9 +19,7 @@
       <a href="/"><img id="logo" alt="Chicago Line Cruises Home Page" width="100" height="99" src="/assets/images/home-logo.png"></a>
 
   		<article>
-			<ul class="mobile-icons">
-				<li><a href="tel:+13125271977"><img alt="Contact" src="/assets/images/icons/mobile-phone.png"></a></li>
-			</ul>
+			
 			<div class="contact-content">
 			<p>Sail with us through our ever-growing,
 			ever-changing City!  For more information ask your
