@@ -30,7 +30,7 @@
   				<li><a href="<?php echo PURCHASE_URL; ?>" onClick="ga('send', 'event', { eventCategory: 'Purchase Ticket', eventAction: 'Start Checkout', eventLabel: 'clicked'});"><img alt="Purchase Tickets" src="/assets/images/nav/mnav-tickets.png"></a></li>
 				<li><a href="/directions.php"><img alt="Cruise Location" src="/assets/images/nav/mnav-location.png"></a></li>
 				<li><a href="/schedules.php"><img alt="Calendar" src="/assets/images/nav/mnav-calendar.png"></a></li>
-				<li><a href="/contact.php"><img alt="Contact" src="/assets/images/nav/mnav-contact.png"></a></li>
+				<li><a href="tel:+13125271977"><img alt="Contact" src="/assets/images/nav/mnav-contact.png"></a></li>
   			<?php else: ?>	
 				<li><a href="/"><img alt="Chicago Line Cruises Home Page" width="30" height="30" src="/assets/images/home-logo.png"></a></li>
 				<div class="page-title"><h1><?php outputPageTitle(getThisPageExact(), $mobile_header); ?></h1></div>
