@@ -1,0 +1,10 @@
+Options -Indexes
+ErrorDocument 401 /customerrors/401.html
+ErrorDocument 403 /customerrors/403.html
+ErrorDocument 500 /customerrors/500.html
+ErrorDocument 400 /customerrors/400.html
+ErrorDocument 404 /
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
