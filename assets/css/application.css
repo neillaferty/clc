@@ -117,7 +117,8 @@ div.float-right { float:right; }
 		display: inline-block;
 		padding: 11px 0px 11px 20px;		
 	}
-	.responsive-menu li a:hover, .responsive-menu li a:active, .responsive-menu li a:focus { background: #999; }
+	.responsive-menu li a:hover,
+	.responsive-menu li a.active { background: #999; }
 	li a.purchase { background-color: #db4046; }
 	li a.purchase:hover { background-color: #6599cd; }
 	

@@ -12,6 +12,12 @@ $(function() {
 		return false;
 	});
 
+   $('.responsive-menu li a').click(function(e) {
+    e.preventDefault();
+    $(this).addClass('active');
+    window.location.href = $(this).attr('href');
+   });
+
   $('nav.supernav li img').hover(function() {
     if (!$(this).hasClass('active')) {
     	var imgSrc = $(this).attr('src');
