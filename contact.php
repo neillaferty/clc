@@ -23,7 +23,7 @@
 			<div class="contact-content">
 			<p>Sail with us through our ever-growing,
 			ever-changing City!  For more information ask your
-			concierge, or call us at 312-527-1977!</p>
+			concierge, or call us at&nbsp;312&ndash;527&ndash;1977!</p>
 			</div>
 			<p class="desktop-email"><a href="mailto:contactus@chicagoline.com"><img alt="Email Us" width="28" height="19" src="/assets/images/icons/email.png"></a></p>
   		</article>

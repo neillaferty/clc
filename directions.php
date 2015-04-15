@@ -29,7 +29,7 @@
   		</article>
     </section>
 	<div class="mobile-map">
-		<img src="/assets/images/mobile-map.jpg" class="full">
+		<img src="/assets/images/mobile-map.jpg" class="full" width="100%" alt="Directions to 465 McClurg Court">
 	</div>
 	
 	<?php include($DOCUMENT_ROOT.'includes/mobile-icons.inc'); ?>

@@ -56,7 +56,7 @@
 		  <p>Starbucks Coffee, Coca-Cola soft drinks, lemonade, muffins and cookies
 		  are all complimentary.  Cocktails, beer and wine are available.</p>
 		</div>
-		
+		<br><br>
 	  <?php include($DOCUMENT_ROOT.'includes/mobile-icons.inc'); ?>
 
   		</article>

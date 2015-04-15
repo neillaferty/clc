@@ -23,7 +23,7 @@
 				<img src="/assets/images/background-charters.jpg" alt="Charters" class="full">
 			</div>
 			<div class="about-content">
-				<h1>Chicago&rsquo;s very first architectural river cruise:</h1>
+				<h1>Chicago&rsquo;s very first architectural river&nbsp;cruise:</h1>
 
 				<p>In 1981, two lawyers – Terry Johnson and Paul McCarthy –
 				purchased the <em>Betty Jean</em> and began a private charter business
@@ -44,12 +44,12 @@
 			</div>
 			
 			<div class="about-boats">
-				<h2>Our boats:<br> Not too big, not too small, never too crowded.</h2>
+				<h2>Our boats:<br> Not too big, not too small, never too&nbsp;crowded.</h2>
 				<p>Our boats are handicapped accessible and fully-appointed with professional stereo and PA system, full-service bar, and optional canopy.</p>
 				<p><em>Ft. Dearborn</em> (upper and lower decks):</p>
-				<img src="/assets/images/mobile-boats-dearborn.jpg">
+				<img src="/assets/images/mobile-boats-dearborn.jpg" width="100%" alt="Ft Dearborn boat layout">
 				<p><em>Innisfree</em> (left) and the <em>Marquette</em> (note that while the Marquette’s deck is handicapped accessible, its bathrooms are not):</p>
-				<img src="/assets/images/mobile-boats-innisfree-marquette.jpg">
+				<img src="/assets/images/mobile-boats-innisfree-marquette.jpg" width="100%" alt="Innisfree and Marquette boat layouts">
 			</div>
  
 			<div class="desktop-icons">

@@ -22,8 +22,17 @@ div.float-right { float:right; }
 
 /* Mobile */
 
-@media only screen and (max-width : 667px) {
-	body { background: #fff; }
+@media only screen and (max-width : 670px) {
+	body { 
+		background: #fff; 
+		text-align: center;
+		color: #000;
+		font-family: "FrutigerLTW01-55Roman", "Arial";
+		font-weight: 200;
+		font-size: 13px;
+		letter-spacing: .5px;
+		width: 100%;
+	}
 	body.page-index section.content {
 		background: url(/assets/images/background-home-m.jpg);
 		background-size: 100%;
@@ -73,6 +82,7 @@ div.float-right { float:right; }
 	}
 	ul.mobile-icons { text-align: center; padding-bottom: 20px; }
 	ul.mobile-icons li { display: inline-block; }
+	ul.mobile-icons img { width: 58px; }
 	
 	ul.mobile li { 
 		float: left; 
@@ -107,9 +117,9 @@ div.float-right { float:right; }
 		display: inline-block;
 		padding: 11px 0px 11px 20px;		
 	}
-	.responsive-menu li a:hover { background: #999; }
+	.responsive-menu li a:hover, .responsive-menu li a:active, .responsive-menu li a:focus { background: #999; }
 	li a.purchase { background-color: #db4046; }
-	li a.purchase:focus { background-color: #6599cd; }
+	li a.purchase:hover { background-color: #6599cd; }
 	
 	h1 {
 		font-family: "Frutiger LT W01_65 Bold", "Arial Condensed";
@@ -139,10 +149,9 @@ div.float-right { float:right; }
 	/* Mobile Contact */
 	body.page-contact section.content #logo { display: none; }
 	body.page-contact section.content {
-		background: url(/assets/images/background-contact.jpg);
-		background-size: 275%;
-		background-position-x: -255px;
-		min-height: 400px; 
+		background: url(/assets/images/mobile-background-contact.jpg);
+		background-size: 100%;
+		min-height: 350px; 
 	}	
 	p.desktop-email { display: none; }
 	div.contact-content { 
@@ -157,10 +166,10 @@ div.float-right { float:right; }
 	/* Mobile Directions */
 	body.page-directions section.content #logo { display: none; }
 	body.page-directions section.content {
-		background: url(/assets/images/background-directions.jpg);
-		background-size: 240%;
-		background-position-x: -240px;
-		min-height: 550px; 
+		background: url(/assets/images/mobile-background-directions.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		min-height: 460px; 
 	}
 	body.page-directions article h1 {
 		font-family: "FrutigerLTW01-45Light", "Arial Condensed";
@@ -174,6 +183,7 @@ div.float-right { float:right; }
 		font-family: "Frutiger LT W01_65 Bold", "Arial Condensed"; 
 		color: #FFFFFF; 
 	}
+	
 	.map-directions { display: none; }
 	
 	/*  Mobile Schedules */
@@ -191,7 +201,6 @@ div.float-right { float:right; }
 		text-transform: none;
 		color:#000; 
 		font-size: 20px; 
-		width: 80%;
 		margin: 0 auto;
 	}
 	body.page-about .desktop-icons { display:none; }
@@ -205,10 +214,18 @@ div.float-right { float:right; }
 	.about-content { margin: 0 auto; }
 }	
 	
+/* Landscape Mobile */
+@media only screen and (min-width : 500px) and (max-width : 670px) {
+	.mobile-map-directions { font-size: 18px; }
+	div.contact-content { font-size: 16px; }
+	body.page-directions section.content { min-height: 614px; }
+	ul.mobile-icons img { width: 75px; }
+	.about-boats h2, body.page-about article h1 { font-size: 3em; }
+}
 	
 /* Desktop site */
 
-@media only screen and (min-width : 668px) {
+@media only screen and (min-width : 671px) {
 
 	h1 {
 		font-family: "FrutigerLTW01-45Light", "Arial Condensed";

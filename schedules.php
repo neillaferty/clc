@@ -42,7 +42,7 @@
         <a href="/fireworks-cruise.php"><img class="cruise-icon" alt="fireworks cruise button" width="41" height="41" src="/assets/images/icons/cruise-fireworks.png"></a>
         <h2>90 Minute Fireworks Cruise:</h2>
         <p>Sails Saturdays from May 22nd thru August 30th:&nbsp;&nbsp;<strong>9:30p</strong></p>
-
+		<br><br>
         <div class="schedule-purchase">
         	<a href="<?php echo PURCHASE_URL; ?>"><img class="cruise-icon" alt="Purchase Tickets" width="47" height="57" src="/assets/images/icons/color-purchase.png" alt="Purchase Tickets"></a>
         </div>
