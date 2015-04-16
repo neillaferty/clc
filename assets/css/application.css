@@ -234,7 +234,7 @@ div.float-right { float:right; }
 		background-position-x: -100px;
 	}
 	div.contact-content { font-size: 16px; }
-	body.page-directions section.content { height: 614px; }
+	body.page-directions section.content { height: 614px; background-size:100%; }
 	ul.mobile-icons img { width: 75px; }
 	.about-boats h2, body.page-about article h1 { font-size: 3em; }
 }

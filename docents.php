@@ -21,7 +21,7 @@
 		<p>"Without Question the best architectural tour available in Chicago; witty, informative,engaging."
 		<br><br><em>– Chicago Sun Times</em></p>
 		
-  		<img src="/assets/images/concierge-winner.jpg" width="100%" alt="Concierge Award Winner">
+  		<img src="/assets/images/concierge-winner.jpg" alt="Concierge Award Winner">
 		<br><br>
   		<img src="/assets/images/six-stars.jpg" alt="Six Stars">
 		<p>"Six of six stars, by far the most comprehensive and engaging tour of the bunch."
