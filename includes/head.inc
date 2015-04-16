@@ -4,7 +4,13 @@
   outputTitleTag(getThisPageExact(), $seo_title);
   ?>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <?php $isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
+	if ( $isiPad ) { ?>
+  <?php // Do not use viewport meta for iPad ?>
+  <?php    } else { ?>
+  <?php // Use viewport meta in all other cases ?>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php } ?>
 
   <link rel="stylesheet" href="/assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/fonts.css">
