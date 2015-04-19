@@ -19,7 +19,6 @@
       <a href="/"><img id="logo" alt="Chicago Line Cruises Home Page" width="100" height="99" src="/assets/images/home-logo.png"></a>
 
   		<article>
-			
 			<div class="contact-content">
 			<p>Sail with us through our ever-growing,
 			ever-changing City!  For more information ask your
