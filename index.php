@@ -19,19 +19,19 @@
   		
 	  <a href="/"><img id="logo" alt="Chicago Line Cruises Home Page" width="100" height="99" src="/assets/images/home-logo.png"></a>
 	  
+      <h1 class="endorsement">
+        Chicago Concierge<br>
+        Favorites Award 2015 Winner:<br>
+        <em>Culture and Attractions</em>
+      </h1>
+
       <article>
-      <p>Praised &ldquo;Best architecture tour available&rdquo; by the <em>Chicago Sun-Times</em> and &ldquo;Most engaging tour of the bunch&rdquo; by <em>Time Out Chicago</em>, this<br>
+      <p>Praised &ldquo;Best architecture tour available&rdquo; by the <em>Chicago Sun-Times</em> and &ldquo;Most engaging tour of the bunch&rdquo; by <em>Time Out Chicago</em>, our<br>
       river cruise has provided more than three million Chicagoans and visitors both stunning views and a deeper appreciation for architectural design.<br>
-      As you sail down the Chicago River a certified professional <a href="architectural-cruise-detail.php">docent</a> interprets more than 50 "cloud busters", the story behind each skyscraper,<br>
-      and the historical events that gave birth to the world's center of modern architecture.  Tours are offered seven days a week, April<br>
-      through November, and all 90 and 60 minute cruises include complimentary Starbucks Coffee, lemonade, Coca-Cola soft drinks,<br> 
-      muffins and cookies. Chicago Line Cruises ticket office and boats are located just north of the Centennial Fountain at 465 N. McClurg Court.<br>Call 312-527-1977 or purchase tickets online.&nbsp;&nbsp;&nbsp;&nbsp;&copy; Chicago From The Lake, Ltd.&nbsp;&nbsp;&nbsp;&nbsp;Photography by R. L. Segal.</p>
+      As you sail down the Chicago River our certified professional <a href="/architectural-cruise-detail.php">docent</a> interprets more than 50 "cloud busters", the story behind each skyscraper,<br>
+      and the historical events that gave birth to the world's center of modern architecture.</p>
       </article>
 		
-  		<aside class="endorsement">
-  			<em>Chicago Concierge Favorites Award 2015 Winner – Culture and Attractions</em>
-  		</aside>
-
   		<aside class="cnn">
   			<a href="http://www.cnn.com/videos/living/2014/09/05/chicago-long-layover.cnn" target="_blank"><img alt="CNN Chicago Long Layover" width="43" height="65" id="cnn-video" src="/assets/images/home-cnn.png"></a>
   		</aside>

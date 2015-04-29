@@ -260,7 +260,7 @@ div.float-right { float:right; }
 	}
 
 	em {
-		font-family: "FrutigerLTW01-56Italic", "Arial";
+		font-family: "FrutigerLTW01-46LightIt", "Arial";
 		font-style: normal;
 	}
 
@@ -373,10 +373,6 @@ div.float-right { float:right; }
 		margin-right: 38px;
 	}
 
-	body.page-index footer aside {
-		display: none;
-	}
-
 	footer figcaption {
 		font-family: "FrutigerLTW01-56Italic", "Arial";
 	}
@@ -410,12 +406,6 @@ div.float-right { float:right; }
 		z-index: 300;
 	}
 
-	img#cnn-video {
-		position: absolute;
-		left: 124px;
-		top: 17px;
-	}
-
 	section.content a {
 		font-family: "FrutigerLTW01-75Black", "Arial";
 		text-decoration: none;
@@ -446,12 +436,6 @@ div.float-right { float:right; }
 		font-size: 14px;
 	}
 
-	aside.endorsement {
-		position: absolute;
-		left: 222px;
-		top: 33px;
-		font-size: 15px;
-	}
 
 	aside.endorsement em {
 		font-family: "FrutigerLTW01-56Italic", "Arial";
@@ -472,10 +456,29 @@ div.float-right { float:right; }
 	/* Home Page */
 
 	body.page-index img#logo {
-		right: 94px;
-		top: 64px;
+		right: 109px;
+		top: 81px;
 	}
 
+	body.page-index h1.endorsement {
+		position: absolute;
+		right: 14px;
+		top: 200px;
+		font-size: 13px;
+		width: 200px;
+		color: #000000;
+		line-height: 18px;
+	}
+
+
+	body.page-index aside.cnn {
+		top: 108px;
+		right: 36px;
+		position: absolute;
+	}
+	body.page-index article p {
+		line-height: 16px;
+	}
 	body.page-index section.content {
 		background: url(/assets/images/background-home.jpg);
 	}
@@ -484,14 +487,11 @@ div.float-right { float:right; }
 	body.page-index section.content article {
 		color: #000000;
 		position: absolute;
-		bottom: -220px;
+		top: 22px;
 		font-size: 12px;
 		width: 100%;
 	}
 
-	body.page-index footer {
-		height: 222px;
-	}
 	body.page-index section.content a {
 		color: #000;
 	}

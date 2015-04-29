@@ -1,3 +1,47 @@
+Redirect 301 /facebook https://www.facebook.com/pages/Chicago-Line-Cruises/201612763202175/
+Redirect 301 /twitter https://www.twitter.com/chicagoline/
+Redirect 301 /reports http://www.terryjohnsonlaw.com/reports/index.html
+Redirect 301 /tourmap.php /routes.php
+Redirect 301 /buytix https://webstore2.centaman.net/CHICAGOLINE/
+Redirect 301 /ourboats/innisfree.asp http://www.chicagoline.com/boats.php
+Redirect 301 /pdf/2007%20E-Brochure.pdf http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/53aafdd6e4b0d1517c5f08b3/1403715030352/CFL%20e-brochure%202013_final.pdf
+Redirect 301 /schedule.php /schedules.php
+Redirect 301 /pdf/2008EBrochure.pdf http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/53aafdd6e4b0d1517c5f08b3/1403715030352/CFL%20e-brochure%202013_final.pdf
+Redirect 301 /cocktailarch.php /cocktail-cruise.php
+Redirect 301 /archcruise/schedule.asp /schedules.php
+Redirect 301 /downloads/CFL%202013_Location%20map%20and%20Directions.pdf http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/539f369ae4b0a181d64fb606/1402943130976/CLC%202011%20Location%20Map.pdf
+Redirect 301 /archcruise/faq.asp /faq.php
+Redirect 301 /choosevessel.php /boats.php
+Redirect 301 /evening.php /cocktail-cruise.php
+Redirect 301 /gifttix.php /gifts.php
+Redirect 301 /schedule /schedules.php
+Redirect 301 /googleAdWords.php/gifttix.php https://webstore2.centaman.net/chicagoline/GIFTTICKETS/tabid/136/Default.aspx
+Redirect 301 /specialty-cruises /cocktail-cruise.php
+Redirect 301 /downloads/2011/CLC%202011%20Charter%20E-Planner.pdf http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/53ea3bdce4b0ee5de168c6c8/1407859676324/CLC%202014%20Charter%20E-Planner_r7.pdf
+Redirect 301 /faq /faqs.php
+Redirect 301 /architecture-cruises /architectural-cruise-detail.php
+Redirect 301 /about-us /about.php
+Redirect 301 /histcruise /history-cruise-detail.php
+Redirect 301 /downloads/2009/evening%20cruises%2009.pdf http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/53aafdd6e4b0d1517c5f08b3/1403715030352/CFL%20e-brochure%202013_final.pdf
+Redirect 301 /private/rates.asp /charters.php
+Redirect 301 /bridgelights.php /cocktail-cruise.php
+Redirect 301 /downloads/CFL%20e-brochure%202013_final.pdf http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/53aafdd6e4b0d1517c5f08b3/1403715030352/CFL%20e-brochure%202013_final.pdf
+Redirect 301 /choosebar.php http://static.squarespace.com/static/53989a8fe4b0c0c13084303b/t/539f5a91e4b090b6052b4c06/1402952337187/CLC%202011%20Choose%20Bar.pdf
+Redirect 301 /downloads/2011/CLC%202011%20Location%20Map.pdf /cruise-routes.php
+Redirect 301 /ourboats/ftdearborn.asp /boats.php
+Redirect 301 /gallery /architectural-cruise-detail.php
+Redirect 301 /tickets https://webstore2.centaman.net/CHICAGOLINE/?_ga=1.96144284.1265288394.1403208242/
+Redirect 301 /choosecaterer.php /charters.php
+Redirect 301 /architectural.php /architectural-cruise-detail.php
+Redirect 301 /archtiecturalrivercruise /architectural-cruise-detail.php
+Redirect 301 /private.php /charters.php
+Redirect 301 /historical.php /history-cruise.php
+Redirect 301 /charterfaq.php /faq.php
+Redirect 301 /location.php /directions.php
+Redirect 301 /rates.php /charters.php
+Redirect 301 /archtour.html /architectural-cruise-detail.php
+Redirect 301 /archcruise /architectural-cruise-detail.php
+
 Options -Indexes
 ErrorDocument 401 /customerrors/401.html
 ErrorDocument 403 /customerrors/403.html
