@@ -153,7 +153,7 @@ div.float-right { float:right; }
 	
 	/* Mobile Home */
 	body.page-index img#logo { margin-top: 125px; width: 140px; height: 140px; }
-	aside.endorsement, aside.cnn { display:none; }
+	h1.endorsement, aside.cnn { display:none; }
 	body.page-index section.content article { display:none; }
 	body.page-index div.mobile { margin: 0 auto; width: 90%; padding-top:15px; }
 	div.mobile p { margin-bottom: 18px; line-height: 18px; }
