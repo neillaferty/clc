@@ -468,6 +468,11 @@ div.float-right { float:right; }
 		width: 200px;
 		color: #000000;
 		line-height: 18px;
+		font-family: "FrutigerLTW01-55Roman";
+	}
+
+	body.page-index em {
+		font-family: "FrutigerLTW01-56Italic";
 	}
 
 
